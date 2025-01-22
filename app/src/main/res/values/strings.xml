@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Note</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notes">Notes</string>
+    <string name="head">Удобство</string>
+    <string name="head_2">Организация</string>
+    <string name="head_3">Синхронизация</string>
+    <string name="desc">Создавайте заметки в два клика! Записывайте мысли, идеи и важные задачи мгновенно.</string>
+    <string name="desc_2">Организуйте заметки по папкам и тегам. Легко находите нужную информацию в любое время.</string>
+    <string name="desc_3">Синхронизация на всех устройствах. Доступ к записям в любое время и в любом месте.</string>
+    <string name="skip">Пропустить</string>
+    <string name="start">Начать</string>
+    <string name="auth">Авторизация</string>
+    <string name="sign">Sign in with Google</string>
+</resources>
