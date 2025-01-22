@@ -48,7 +48,7 @@
         android:layout_height="wrap_content"
         android:text="@string/sign"
         android:padding="8dp"
-        app:icon="@drawable/search"
+        app:icon="@drawable/ic_google"
         app:iconGravity="textStart"
         app:iconSize="24dp"
         android:textAllCaps="false"
