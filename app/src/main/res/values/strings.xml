@@ -15,4 +15,7 @@
     <string name="sign">Sign in with Google</string>
     <string name="all_notes">Все заметки</string>
     <string name="find_notes">Поиск заметок</string>
+    <string name="date_and_time">30 мая 17:21</string>
+    <string name="text">text</string>
+    <string name="title">Title</string>
 </resources>

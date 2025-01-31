@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="8dp"
-    tools:context=".fragments.HomeFragment">
+    tools:context=".fragments.homeFragments.HomeFragment">
 
 
     <TextView
@@ -45,7 +45,7 @@
         android:id="@+id/et_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="18dp"
         android:background="@drawable/bg_edittext"
         android:drawableStart="@drawable/ic_search"
         android:drawablePadding="12dp"
@@ -67,7 +67,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="590dp"
+        android:layout_height="650dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/et_search">
 
@@ -75,6 +76,7 @@
             android:id="@+id/rv_home"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:listitem="@layout/item_home" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
